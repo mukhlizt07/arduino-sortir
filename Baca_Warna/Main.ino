@@ -60,7 +60,7 @@ void loop() {
   delay(100);
 
 
-  if(redFrequency > x && greenFrequency > x && blueFrequency > x){
+  if(redFrequency < x && greenFrequency < x && blueFrequency < x){
       myservo.write(25);  
       delay(50);
   }
